@@ -1,0 +1,12 @@
+<div class="">
+    <div class="">
+        <ul class="films-grid">
+            <li *ngFor="let film of filmsList">
+                <div>
+                    <img src={{film.images.image[0].src}} alt="{{film.title}}" />
+                    <h3>{{film.title}}</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
